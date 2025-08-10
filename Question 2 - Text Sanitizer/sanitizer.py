@@ -46,3 +46,6 @@ if __name__ == "__main__":
 
     sanitizer = TextSanitizer(args.source, args.target)
     sanitizer.run()
+
+# คำสั่งที่ใช้รันโค้ด 
+# python sanitizer.py --source input.txt --target output.txt
